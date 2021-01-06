@@ -19,6 +19,7 @@ private:
     Ui::MainWindow *ui;
     int count;
     QMap<int, int> mapInfo;
+    QList<QCheckBox *> checkboxes;
 private slots:
     void add(bool);
     void hreset();

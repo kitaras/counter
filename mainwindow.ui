@@ -1006,6 +1006,7 @@
      <string>&amp;Файл</string>
     </property>
     <addaction name="action_Exit"/>
+    <addaction name="action"/>
    </widget>
    <widget class="QMenu" name="menu_2">
     <property name="title">
@@ -1022,15 +1023,17 @@
     <string>&amp;Выйти</string>
    </property>
    <property name="shortcut">
-    <string>Ctrl+H</string>
+    <string>Ctrl+Q</string>
    </property>
   </action>
   <action name="action_About_Qt">
    <property name="text">
     <string>&amp;О Qt</string>
    </property>
-   <property name="shortcut">
-    <string>Ctrl+Q</string>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>&amp;Импорт</string>
    </property>
   </action>
  </widget>
